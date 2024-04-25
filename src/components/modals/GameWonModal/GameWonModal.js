@@ -13,7 +13,7 @@ function GameWonModal({ open, submittedGuesses }) {
     <BaseModal
       title="You won the game!"
       initiallyOpen={open}
-      footerElements={<ShareScoreButton />}
+      
       showActionButton={false}
     >
       <p>{"Great job, share your results!"}</p>
@@ -23,7 +23,7 @@ function GameWonModal({ open, submittedGuesses }) {
           {"\n"}
           {generateEmojiGrid(gameData, submittedGuesses)}
         </span>
-        <CountdownToNextPuzzle />
+        
       </div>
     </BaseModal>
   );

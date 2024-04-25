@@ -60,12 +60,13 @@ function GameStatusProvider({ children }) {
 
   // use effect to check if all mistakes have been used and end the game accordingly
   React.useEffect(() => {
-    if (numMistakesUsed >= MAX_MISTAKES) {
-      setIsGameOver(true);
-      setIsGameWon(false);
-    }
-    const gameState = { submittedGuesses, solvedGameData, gameData };
-    saveGameStateToLocalStorage(gameState);
+    // if (numMistakesUsed >= MAX_MISTAKES) {
+    //   // numMistakesUsed = 0
+    //   // setIsGameOver(true);
+    //   // setIsGameWon(false);
+    // }
+    // const gameState = { submittedGuesses, solvedGameData, gameData };
+    // saveGameStateToLocalStorage(gameState);
   }, [submittedGuesses]);
 
   return (

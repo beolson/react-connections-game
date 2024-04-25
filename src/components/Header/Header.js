@@ -5,8 +5,8 @@ import InfoModal from "../modals/InfoModal";
 function Header() {
   return (
     <header>
-      <h1 className="font-space-mono">Black Connections</h1>
-      <InfoModal />
+      <h1 className="font-space-mono">Connections</h1>
+  
     </header>
   );
 }
