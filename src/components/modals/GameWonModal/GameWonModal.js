@@ -16,15 +16,15 @@ function GameWonModal({ open, submittedGuesses }) {
       
       showActionButton={false}
     >
-      <p>{"Great job, share your results!"}</p>
-      <div className="justify-center">
-        {/* the whitespace: pre style makes the emoji grid appear with new lines character */}
-        <span className="text-center whitespace-pre">
-          {"\n"}
+
+<div className="float-left p-4">
+<span className="text-center whitespace-pre">
           {generateEmojiGrid(gameData, submittedGuesses)}
-        </span>
-        
-      </div>
+        </span></div>
+<p>Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. ...Maybe we can live without libraries, people like you and me. .</p>
+
+
+
     </BaseModal>
   );
 }
